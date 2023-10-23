@@ -6,7 +6,7 @@ import time             # 시간 관련 기능을 사용하기 위한 라이브�
 import os               # 운영체제 관련 기능을 사용하기 위한 라이브러리
 import threading
 
-def calculate_EAR(eye): # 눈 거리 계산
+def calculate_EAR(eye): # 눈 거리 계산 test1
    A = distance.euclidean(eye[1], eye[5])
    B = distance.euclidean(eye[2], eye[4])
    C = distance.euclidean(eye[0], eye[3])

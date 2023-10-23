@@ -4,7 +4,7 @@ from functools import wraps     # 함수 데코레이터를 활용하기 위한 
 from scipy.spatial import distance #유클리드 거리 계산에 사용
 import time             # 시간 관련 기능을 사용하기 위한 라이브러리
 import os               # 운영체제 관련 기능을 사용하기 위한 라이브러리
-
+# develop 
 def calculate_EAR(eye): # 눈 거리 계산
    A = distance.euclidean(eye[1], eye[5])
    B = distance.euclidean(eye[2], eye[4])
